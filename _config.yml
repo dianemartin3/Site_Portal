@@ -1,0 +1,34 @@
+# Site settings
+title: "Com&eacute;dienne - Mannequin commercial - Diane Martin"
+header: Diane Martin
+email: "diane-martin@hotmail.fr"
+og_description: "Actrice, modèle - Paris, France - Tournages, th&eacute;&acirc;tre, shootings mode, publicités"
+description: "Actrice, modèle - Paris, France - Tournages, th&eacute;&acirc;tre, shootings mode, publicités"
+subheader: Actress & Model
+url: ""
+baseurl: ""
+facebook_username: "pagedianemartin"
+instagram_username: "diane_martin_"
+
+# Owner/author information
+owner:
+  name: Diane Martin
+  favicon: favicon.png
+  info: Portfolio Diane Martin
+
+# All translation keys
+translations:
+ # 404.html
+  permalink: "/404.html"
+
+# Server
+destination:      	 ./_site
+port:             	 4000
+
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+exclude: ["less","node_modules","README.md"]

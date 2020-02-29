@@ -1,0 +1,37 @@
+<!-- Footer -->
+<footer style="margin-top: 10px;">
+
+<ul class="flex-container">
+    {% if site.facebook_username %}
+    <li class="flex-item">
+        <a href="https://facebook.com/{{ site.facebook_username }}" data-toggle="tooltip" title="Facebook">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+            </span>
+        </a>
+    </li>
+    {% endif %}
+
+    {% if site.instagram_username %}
+    <li class="flex-item">
+        <a href="https://instagram.com/{{ site.instagram_username }}" data-toggle="tooltip" title="Instagram">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+            </span>
+        </a>
+    </li>
+    {% endif %}
+
+    <li class="flex-item">
+        <a href="mailto:{{ site.email }}" data-toggle="tooltip" target="_blank" title="Email">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+            </span>
+        </a>
+    </li>
+</ul>
+
+</footer>
