@@ -1,9 +1,9 @@
 <!-- Footer -->
 <footer style="margin-top: 10px;">
 
-<ul class="flex-container">
+<ul class="flex-footer">
     {% if site.facebook_username %}
-    <li class="flex-item">
+    <li>
         <a href="https://facebook.com/{{ site.facebook_username }}" data-toggle="tooltip" title="Facebook">
             <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -14,7 +14,7 @@
     {% endif %}
 
     {% if site.instagram_username %}
-    <li class="flex-item">
+    <li>
         <a href="https://instagram.com/{{ site.instagram_username }}" data-toggle="tooltip" title="Instagram">
             <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -24,7 +24,7 @@
     </li>
     {% endif %}
 
-    <li class="flex-item">
+    <li>
         <a href="mailto:{{ site.email }}" data-toggle="tooltip" target="_blank" title="Email">
             <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
